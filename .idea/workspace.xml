@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29d84312-2019-4e9e-aafc-e0763ab453eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/css-framework.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/lib.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/lib.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="css-framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +25,7 @@
   <component name="FavoritesManager">
     <favorites_list name="css-framework">
       <favorite_root url="file://$PROJECT_DIR$/css/reset.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/css/lib.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
@@ -45,10 +39,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="-0.2168421" vertical-offset="341" max-vertical-offset="1428">
+            <state line="14" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="1428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/lib.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="27" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-7.647059" vertical-offset="868" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/lib.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="1" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.49894738" vertical-offset="1803" max-vertical-offset="3757">
               <folding />
             </state>
           </provider>
@@ -68,6 +80,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/less/reset.less" />
+        <option value="$PROJECT_DIR$/less/lib.less" />
       </list>
     </option>
   </component>
@@ -248,7 +261,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="-0.2168421" vertical-offset="341" max-vertical-offset="1428">
+        <state line="14" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/lib.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="27" selection-start="2064" selection-end="2064" vertical-scroll-proportion="-7.647059" vertical-offset="868" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lib.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="1" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.49894738" vertical-offset="1803" max-vertical-offset="3757">
           <folding />
         </state>
       </provider>
