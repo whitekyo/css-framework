@@ -24,4 +24,4 @@ reset.css
 * 增加了一些元素的默认样式。 
 
 lib.css
-提供关于margin、padding、font-size、color、height(line-height)、layout、box等单个属性类
+* 提供关于margin、padding、font-size、color、height(line-height)、layout、box等单个属性类
