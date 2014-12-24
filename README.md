@@ -1,7 +1,6 @@
 css-framework是一款web项目前端样式的脚手架
 ---
 css-framework目录结构:
-###
 * less
 	* reset.less
 	* lib.less
@@ -16,7 +15,6 @@ css-framework目录结构:
 * package.json
 
 reset.css
-####
 * 清除内外边距的元素，去掉了 div, code（在测试浏览器中，没发现有边距）, 增加了 button（感觉是 YUI 遗漏了）. 
 * 去掉了 YUI 里对 html 颜色和背景色的设置。在测试浏览器中，没有发现差异。（要设的话，推荐background: transparent） 
 * 对于 address, caption, …, em, strong 等文本格式元素，做了调整。保留了 strong 和 th 的粗体。 
@@ -26,5 +24,4 @@ reset.css
 * 增加了一些元素的默认样式。 
 
 lib.css
-####
 提供关于margin、padding、font-size、color、height(line-height)、layout、box等单个属性类
