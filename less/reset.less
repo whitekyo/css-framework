@@ -7,15 +7,29 @@
 @normal: normal;
 @middle: middle;
 @zero: 0;
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0;padding: 0;}
+/* clear margin and padding */
+body, h1, h2, h3, h4, h5, h6, hr, p, 
+blockquote, dl, dt, dd, ul, ol, li, pre, 
+form, fieldset, legend, button, input, textarea, 
+th, td { margin: @zero;padding: @zero;}
+/* initialise the link */
 a:link,a:visited,a:hover,a:active { text-decoration: @none;}
+/* initialize the head */
 h1, h2, h3, h4, h5, h6 {font-size: @enough; font-weight:@normal;}
+/* normalize the italic */
 address, cite, dfn, em, var {font-style: @normal;}
+/* normalize the form */
 fieldset, img {border: @none;}
+button,input,select,textarea { font-size: @enough;}
+/* normalize the list */
 ul,ol,li{ list-style-type: @none; padding: @zero;}
+/* normalize the table */
+table { border-collapse: collapse; border-spacing: 0;}
+/* other */
 i{ vertical-align:@middle;}
 i,label,input[type="checkbox"]{ vertical-align:@middle;}
-button, input, select, textarea {font-size: @enough;}
+hr { border:none; height: 1px;}
+html { overflow-y: scroll;}
 /* clearix */
 .clearfix:before,.clearfix:after { content: ''; display: table;}
 .clearfix:after { clear: both;}
