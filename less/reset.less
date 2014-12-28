@@ -24,12 +24,14 @@ button,input,select,textarea { font-size: @enough;}
 /* normalize the list */
 ul,ol,li{ list-style-type: @none; padding: @zero;}
 /* normalize the table */
-table { border-collapse: collapse; border-spacing: 0;}
+table { border-collapse: collapse; border-spacing: @zero;}
 /* other */
 i{ vertical-align:@middle;}
 i,label,input[type="checkbox"]{ vertical-align:@middle;}
 hr { border:none; height: 1px;}
 html { overflow-y: scroll;}
+/* link */
+:focus { outline: @zero;}
 /* clearix */
 .clearfix:before,.clearfix:after { content: ''; display: table;}
 .clearfix:after { clear: both;}
