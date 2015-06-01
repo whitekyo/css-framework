@@ -2,39 +2,160 @@
  * @fileName reset
  * @author leo<474398734@qq.com>
  */
+@import "variables.less";
 @none:none;
 @enough: 100%;
 @normal: normal;
 @middle: middle;
 @zero: 0;
 /* clear margin and padding */
-body, h1, h2, h3, h4, h5, h6, hr, p, 
-blockquote, dl, dt, dd, ul, ol, li, pre, 
-form, fieldset, legend, button, input, textarea, 
-th, td { margin: @zero;padding: @zero;}
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+hr, 
+p, 
+blockquote, 
+dl, 
+dt, 
+dd, 
+ul, 
+ol, 
+li, 
+pre, 
+form, 
+fieldset, 
+legend, 
+button, 
+input, 
+textarea, 
+th, 
+td { 
+	margin: @zero;
+	padding: @zero;
+}
+
 /* initialise the link */
-a:link,a:visited,a:hover,a:active { text-decoration: @none;}
+a:link,
+a:visited,
+a:hover,
+a:active { 
+	text-decoration: @none;
+}
+
 /* initialize the head */
-h1, h2, h3, h4, h5, h6 {font-size: @enough; font-weight:@normal;}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-size: @enough; 
+	font-weight:@normal;
+}
+
 /* normalize the italic */
-address, cite, dfn, em, var {font-style: @normal;}
+address, 
+cite, 
+dfn, 
+em, 
+var {
+	font-style: @normal;
+}
+
 /* normalize the form */
-fieldset, img {border: @none;}
-button,input,select,textarea { font-size: @enough;}
+fieldset,
+img {
+	border: @none;
+}
+button,
+input,
+select,
+textarea { 
+	font-size: @enough;
+}
+
 /* normalize the list */
-ul,ol,li{ list-style-type: @none; padding: @zero;}
+ul,
+ol,
+li { 
+	list-style-type: @none;
+	padding: @zero;
+}
+
 /* normalize the table */
-table { border-collapse: collapse; border-spacing: @zero;}
+table { 
+	border-collapse: collapse; 
+	border-spacing: @zero;
+}
+
 /* other */
-i{ vertical-align:@middle;}
-i,label,input[type="checkbox"]{ vertical-align:@middle;}
-hr { border:none; height: 1px;}
-body { font:62.5% Helvetica;}
+i { 
+	vertical-align:@middle;
+}
+i,
+label,
+input[type="checkbox"] { 
+	vertical-align:@middle;
+}
+hr { 
+	border:none; 
+	height: 1px;
+}
+html { 
+	font:31.25% Helvetica;
+}
+blockquote, q {
+	quotes: @none; 
+}
+
 /* link */
-:focus { outline: @zero;}
-/* clearix */
-.clearfix:before,.clearfix:after { content: ''; display: table;}
-.clearfix:after { clear: both;}
-.clearfix { zoom:1;}
+:focus { 
+	outline: @zero;
+}
+
 /* text-overflow */
-.t-overflow { text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.t-overflow { 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+/*H5 tag*/
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup,
+menu, 
+nav, 
+section, 
+main { 
+	display: block; 
+}
+
+/* 响应式布局 */
+@media screen and (min-width: @smallGrid) {
+  html {
+	font-size: 40%;
+  }
+}
+
+@media screen and (min-width: @mediumGrid) {
+  html {
+	font-size: 46.9%;
+  }
+}
+
+@media screen and (min-width: @largeGrid) {
+  html {
+	font-size: 62.5%;
+  }
+}
+

@@ -1,1 +1,142 @@
-body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}a:link,a:visited,a:hover,a:active{text-decoration:none}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}address,cite,dfn,em,var{font-style:normal}fieldset,img{border:none}button,input,select,textarea{font-size:100%}ul,ol,li{list-style-type:none;padding:0}table{border-collapse:collapse;border-spacing:0}i{vertical-align:middle}i,label,input[type="checkbox"]{vertical-align:middle}hr{border:none;height:1px}body{font:62.5% Helvetica}:focus{outline:0}.clearfix:before,.clearfix:after{content:'';display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.t-overflow{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+/**
+ * @fileName reset
+ * @author leo<474398734@qq.com>
+ */
+/* clear margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+/* initialise the link */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+/* initialize the head */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+/* normalize the italic */
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+/* normalize the form */
+fieldset,
+img {
+  border: none;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/* normalize the list */
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+/* normalize the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* other */
+i {
+  vertical-align: middle;
+}
+i,
+label,
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+hr {
+  border: none;
+  height: 1px;
+}
+html {
+  font: 31.25% Helvetica;
+}
+blockquote,
+q {
+  quotes: none;
+}
+/* link */
+:focus {
+  outline: 0;
+}
+/* text-overflow */
+.t-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*H5 tag*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+/* 响应式布局 */
+@media screen and (min-width: 410px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 46.9%;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
+}

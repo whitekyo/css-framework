@@ -2,16 +2,14 @@ module.exports = function(grunt) {
     //配置
     grunt.initConfig({
         pkg : grunt.file.readJSON('package.json'),
-        concat: {
-            css: {
-                src: ['css/*.css'],
-                dest: 'css/build.css'
-            }
-        },
-        cssmin: {
-            css: {
+        cssmin: {    // 任务名称
+            options: {
+                banner: "/*! <%=pkg.name %> -v <%=pkg.version%> build in <%=grunt.template.today('yyyy-mm-dd')%> coding by <%=pkg.author%>*/"
+            },
+            combine: {
                 files: {
-                    'css/build.css': ['css/common.css','css/lib.css','css/reset.css']
+                    "dest/pc-base.css": ["css/reset.css", "css/lib.css"],
+                    "dest/mobile-base.css": ["css/reset-mobile.css", "css/lib.css", "css/grid.css"]
                 }
             }
         }
