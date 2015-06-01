@@ -1,4 +1,4 @@
-﻿css-framework是一款web项目前端样式的脚手架
+﻿css-framework介绍
 ---
 css-framework目录结构:
 * less
