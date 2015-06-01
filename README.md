@@ -1,15 +1,21 @@
-css-framework是一款web项目前端样式的脚手架
+﻿css-framework是一款web项目前端样式的脚手架
 ---
 css-framework目录结构:
 * less
 	* reset.less
 	* lib.less
-	* common.less
+	* reset-mobile.less
+	* variables.less
+	* mixins.less
+	* grid.less
 * css
 	* reset.css
 	* lib.css
-	* common.css
-	* build.css
+	* reset-mobile.css
+	* grid.css
+* dest
+	* mobile-base.css
+	* pc-base.css
 * node_modules
 * Gruntfile.js
 * package.json
@@ -25,3 +31,10 @@ reset.css
 
 lib.css
 * 提供关于margin、padding、font-size、color、height(line-height)、layout、box等单个属性类
+
+reset-mobile.css
+* 在reset.css的基础上加入了移动端的一些调整，新添响应式判断。
+
+grid.css
+* 剥离在bootstrap3中的栅格系统，做新手布局使用。
+
